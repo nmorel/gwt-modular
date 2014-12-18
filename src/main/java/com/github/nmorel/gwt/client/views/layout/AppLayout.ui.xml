@@ -1,0 +1,28 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+    <ui:style>
+        .link {
+            margin-bottom: 10px;
+        }
+    </ui:style>
+
+    <g:HTMLPanel>
+
+        <div style="float: left; margin: 0 10px; border-right: 1px solid black; padding-right: 10px;">
+            <div class="{style.link}">
+                <a href="#home">Home</a>
+            </div>
+            <div class="{style.link}">
+                <a href="#view1">View1</a>
+            </div>
+            <div class="{style.link}">
+                <a href="#view2">View2</a>
+            </div>
+        </div>
+
+        <g:SimplePanel ui:field="container"/>
+
+    </g:HTMLPanel>
+
+</ui:UiBinder>
