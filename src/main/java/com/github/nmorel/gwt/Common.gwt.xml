@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+
+  <inherits name="com.google.gwt.activity.Activity" />
+  <inherits name="com.google.gwt.place.Place" />
+
+  <inherits name="com.google.gwt.inject.Inject"/>
+
+  <define-configuration-property name="modular.ginjector.extensions" is-multi-valued="true" />
+
+  <source path="common" />
+
+</module>

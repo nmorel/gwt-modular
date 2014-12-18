@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+
+  <inherits name="com.github.nmorel.gwt.Common" />
+
+  <extend-configuration-property name="modular.ginjector.extensions" value="com.github.nmorel.gwt.home.HomeModule"/>
+
+  <source path="home" />
+
+</module>
