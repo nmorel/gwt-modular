@@ -2,6 +2,8 @@
 <module rename-to='modular'>
 
   <inherits name="com.github.nmorel.gwt.Common" />
+
+  <!-- Reorder or remove one of these line to test the modularity -->
   <inherits name="com.github.nmorel.gwt.Home" />
   <inherits name="com.github.nmorel.gwt.View1" />
   <inherits name="com.github.nmorel.gwt.View2" />
