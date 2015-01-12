@@ -8,7 +8,9 @@ Then (re)run the SuperDevMode or Tomcat.
 
 To run in SuperDevMode, run the following command :
 ```
-mvn gwt:run
+mvn gwt:run -pl appli
+or
+mvn gwt:run -pl light-appli
 ```
 The url is at [http://localhost:8888](http://localhost:8888)
 
@@ -16,6 +18,8 @@ The url is at [http://localhost:8888](http://localhost:8888)
 
 To run with tomcat, run the following command :
 ```
-mvn tomcat7:run-war
+mvn clean tomcat7:run-war -pl appli -am
+or
+mvn clean tomcat7:run-war -pl light-appli -am
 ```
 The url is at [http://localhost:8080](http://localhost:8080)

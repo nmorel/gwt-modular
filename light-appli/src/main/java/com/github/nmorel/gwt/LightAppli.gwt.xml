@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='appli'>
+
+  <inherits name="com.github.nmorel.gwt.Common" />
+
+  <!-- Reorder or remove one of these line to test the modularity -->
+  <inherits name="com.github.nmorel.gwt.Home" />
+
+  <inherits name="com.google.gwt.logging.Logging" />
+  <set-property name="gwt.logging.logLevel" value="INFO" />
+  <set-property name="gwt.logging.enabled" value="TRUE" />
+  <set-property name="gwt.logging.consoleHandler" value="ENABLED" />
+
+  <entry-point class="com.github.nmorel.gwt.appli.LightAppliEntryPoint" />
+
+  <source path="appli" />
+
+</module>
